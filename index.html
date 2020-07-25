@@ -8,6 +8,10 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
     <title>Fluffy Agency</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/css/reset.css" />
     <!-- <link rel="stylesheet" href="src/css/grid.css" /> -->
     <link rel="stylesheet" href="src/css/style.css" />
@@ -20,7 +24,42 @@
     <!-- BEGIN MAIN -->
     <main id="main" class="main_content">
       <section class="block_section contact_form">
-        <div class="container"></div>
+        <div class="container">
+          <div class="form_wrapper">
+            <h1>Contact US</h1>
+            <form>
+              <div class="form_groups">
+                <label for="fullname" class="form__labels">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Filani Fisteku"
+                  class="form__inputs"
+                />
+              </div>
+              <div class="form_groups">
+                <label for="email" class="form__labels"
+                  >Your Email Address</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="email@email.com"
+                  class="form__inputs"
+                />
+              </div>
+              <div class="form_groups">
+                <label for="message" class="form__labels">Your Message</label>
+                <textarea name="message" id="message" c>
+                  Type your message here...</textarea
+                >
+              </div>
+              <div class="form_groups">
+                <input type="submit" value="Submit Your Message" />
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <!-- END MAIN -->

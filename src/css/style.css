@@ -1,8 +1,20 @@
-body {
+body textarea input select option label {
+  font-family: "Open Sans", sans-serif;
   background: #f4f6f7;
+}
+.contact_form {
+  background-color: #11364e;
 }
 .container {
   position: relative;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+}
+.form_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 140px 0;
+}
